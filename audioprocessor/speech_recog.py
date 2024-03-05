@@ -1,7 +1,7 @@
 import os
 from vosk import Model, KaldiRecognizer
 import wave
-
+from faster_whisper import WhisperModel
 
 class SpeechRecog:
 
